@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
             .apply(bodyColor: Colors.white),
         canvasColor: secondaryColor,
       ),
-      home: Login(title: "Wellcome to the Admin & Dashboard Panel"),
+      home: SelectionArea(child: Login(title: "Wellcome to the Admin & Dashboard Panel")),
     );
   }
 }
